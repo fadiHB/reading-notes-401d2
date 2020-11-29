@@ -14,7 +14,7 @@ Welcome to the Reading Notes file :octocat: that shows all the reading files bel
 | all reding-notes links      |
 | :-----:|
 |[Read: Class 1](https://fadihb.github.io/reading-notes-401d2/class-01)|
-|[Read: Class 2](class-02)|
+|[Read: Class 2](https://fadihb.github.io/reading-notes-401d2/class-02)|
 |[Read: Class 3](class-03)|
 |[Read: Class 4](class-04)|
 |[Read: Class 5](class-05)|
