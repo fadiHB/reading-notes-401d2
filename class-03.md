@@ -62,4 +62,4 @@ In Python, using the else statement, you can instruct a program to execute a cer
 
 Imagine that you always had to implement some sort of action to clean up after executing your code. Python enables you to do so using the finally clause.
 
-[class3](img/class3.PNG)
+![class3](img/class3.PNG)
