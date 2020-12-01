@@ -72,3 +72,8 @@ I did that to simplify things for the sake of clarity. Keep in mind that tail is
 ## Testing Python Applications with Pytest
 
 Testing applications has become a standard skill set required for any competent developer today. The Python community embraces testing, and even the Python standard library has good inbuilt tools to support testing. In the larger Python ecosystem, there are a lot of testing tools. Pytest stands out among them due to its ease of use and its ability to handle increasingly complex testing needs.
+
+
+## pytest fixtures: explicit, modular, scalable
+Software test fixtures initialize test functions. They provide a fixed baseline so that tests execute reliably and produce consistent, repeatable, results. Initialization may setup services, state, or other operating environments. These are accessed by test functions through arguments; for each fixture used by a test function there is typically a parameter (named after the fixture) in the test function’s definition.
+
