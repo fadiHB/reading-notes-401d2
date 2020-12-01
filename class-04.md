@@ -67,3 +67,8 @@ Also, Python’s mutable data structures don’t support structural sharing, so 
                                 >>> print("tail --", tail)
                                 tail -- [2, 3]
 I did that to simplify things for the sake of clarity. Keep in mind that tail is being created by copying. Recursively doing that over large lists can negatively affect your space and GC efficiency.
+
+
+## Testing Python Applications with Pytest
+
+Testing applications has become a standard skill set required for any competent developer today. The Python community embraces testing, and even the Python standard library has good inbuilt tools to support testing. In the larger Python ecosystem, there are a lot of testing tools. Pytest stands out among them due to its ease of use and its ability to handle increasingly complex testing needs.
