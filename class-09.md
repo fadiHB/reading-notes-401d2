@@ -10,13 +10,21 @@ In Python, special methods are a set of predefined methods you can use to enrich
 This elegant design is known as the Python data model and lets developers tap into rich language features like sequences, iteration, operator overloading, attribute access, etc.
 
 ## Enriching a Simple Account Class
+
 Object Initialization: __init__
+
 Object Representation: __str__, __repr__
+
 Iteration: __len__, __getitem__, __reversed__
+
 Operator Overloading for Comparing Accounts: __eq__, __lt__
+
 Operator Overloading for Merging Accounts: __add__
+
 Callable Python Objects: __call__
+
 Context Manager Support and the With Statement: __enter__, __exit__
+
 
 ## Basic Statistics in Python
 
