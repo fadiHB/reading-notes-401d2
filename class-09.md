@@ -31,4 +31,7 @@ These two events form the sample space, the set of all possible events that can 
 
 ### Revisiting the normal
 
-The normal distribution is significant to probability and statistics thanks to two factors: the Central Limit Theorem and the Three Sigma Rule.
+The normal distribution is significant to probability and statistics thanks to two factors:
+
+* the Central Limit Theorem
+* the Three Sigma Rule.
