@@ -61,6 +61,7 @@ Unless the arrays that you’re operating on are the exact same size, it’s not
 
 
 ## NumPy Array Methods
+
 In addition to the common mathematical operations, NumPy also has several methods that you can use for more complex calculations on arrays.
 e.g:
 
@@ -70,6 +71,7 @@ e.g:
 * rad2deg()
 
 ## Reshaping NumPy Arrays
+
 We can change the shape of arrays while still preserving all of their elements. This often can make it easier to access array elements.
 some usuful function :
 
