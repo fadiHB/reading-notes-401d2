@@ -9,7 +9,6 @@ And unfortunately, due to the inherent complexities of cryptography, many people
 But nothing could be further from the truth.
 
 ## Understanding Ciphers: The Basis of All Cryptography
-*Note: For the purposes of this article, I will refer to messages in an easily readable format as “plaintext” and encrypted or unreadable messages as “ciphertext”. Please note that the words “encryption” and “cryptography” will also be used interchangeably”*
 
 Cryptography, at its most fundamental level, requires two steps: encryption and decryption. The encryption process uses a cipher in order to encrypt plaintext and turn it into ciphertext. Decryption, on the other hand, applies that same cipher to turn the ciphertext back into plaintext.
 
@@ -41,6 +40,7 @@ By applying this cipher, our plaintext “Hello” turns into the ciphertext “
 To the untrained eye “Khoor” looks nothing like “Hello”. However, with knowledge of Caesar’s cipher, even the most novice cryptographer could quickly decrypt the message and uncover its contents.
 
 ## A Brief Word on Polymorphism
+
 Before we continue, I want to touch on a more advanced topic known as polymorphism.
 
 While the intricacies of this topic stretch far beyond the realm of this guide, its increasing prevalence mandates that I include a brief explanation.
@@ -51,9 +51,8 @@ Let’s go back to our original example with the plaintext “Hello.” While th
 
 Polymorphism is most commonly used in cipher algorithms to encrypt computers, software, and cloud-based information.
 
- 
+## Why Does Cryptography Matter?
 
-##  Why Does Cryptography Matter?
 I want to preface the rest of this article with a warning.
 
 Throughout the rest of this article, I will be explaining exactly how cryptography works and how it is applied today. In doing so, I will have to employ a significant amount of technical jargon that may feel tedious at times.
@@ -86,9 +85,6 @@ Your personal security is your responsibility, no one else’s.
 
 And the sooner that you can develop a strong understanding of the systems in place, the sooner you will be able to make informed decisions about how you can protect your data.  
 
-So with that out of the way, let’s get to the good stuff.
-
-
 ## Types of Cryptography
 
 * hashing
@@ -103,3 +99,4 @@ So with that out of the way, let’s get to the good stuff.
 * Confidentiality
 * Integrity
 
+***done ..***
