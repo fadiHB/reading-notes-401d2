@@ -96,15 +96,17 @@ class Album(models.Model):
 ```
 
 ## Field types
+
 Each field in your model should be an instance of the appropriate Field class. Django uses the field class types to determine a few things:
 
 * The column type, which tells the database what kind of data to store (e.g. INTEGER, VARCHAR, TEXT).
-* The default HTML widget to use when rendering a form field (e.g. <input type="text">, <select>).
+* The default HTML widget to use when rendering a form field (e.g. < input type="text">, < select>).
 * The minimal validation requirements, used in Django’s admin and in automatically-generated forms.
 * Django ships with dozens of built-in field types; you can find the complete list in the model field reference.
 You can easily write your own fields if Django’s built-in ones don’t do the trick; see Writing custom model fields.
 
 ## Field options¶
+
 Each field takes a certain set of field-specific arguments (documented in the model field reference). For example, CharField (and its subclasses) require a max_length argument which specifies the size of the VARCHAR database field used to store the data.
 
 There’s also a set of common arguments available to all field types. All are optional.
@@ -127,7 +129,3 @@ example:
 * AutoField
 * ForeignKey key
 * ManyToManyField 
-
-
-
-
