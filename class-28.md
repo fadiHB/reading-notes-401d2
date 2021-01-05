@@ -6,19 +6,19 @@ Unless you’re planning to build websites and applications that do nothing but 
 Django provides a range of tools and libraries to help you build forms to accept input from site visitors, and then process and respond to the input.
 
 ## HTML forms
-In HTML, a form is a collection of elements inside <form>...</form> that allow a visitor to do things like enter text, select options, manipulate objects or controls, and so on, and then send that information back to the server.
+In HTML, a form is a collection of elements inside < form>...< /form> that allow a visitor to do things like enter text, select options, manipulate objects or controls, and so on, and then send that information back to the server.
 
-Some of these form interface elements - text input or checkboxes - are built into HTML itself. Others are much more complex; an interface that pops up a date picker or allows you to move a slider or manipulate controls will typically use JavaScript and CSS as well as HTML form <input> elements to achieve these effects.
+Some of these form interface elements - text input or checkboxes - are built into HTML itself. Others are much more complex; an interface that pops up a date picker or allows you to move a slider or manipulate controls will typically use JavaScript and CSS as well as HTML form < input> elements to achieve these effects.
 
-As well as its <input> elements, a form must specify two things:
+As well as its < input> elements, a form must specify two things:
 
-* where: the URL to which the data corresponding to the user’s input should be returned
+* where: the URL to which the data corresponding to the user’s  input should be returned
 * how: the HTTP method the data should be returned by
-As an example, the login form for the Django admin contains several <input> elements: one of type="text" for the username, one of type="password" for the password, and one of type="submit" for the “Log in” button. It also contains some hidden text fields that the user doesn’t see, which Django uses to determine what to do next.
+As an example, the login form for the Django admin contains several < input> elements: one of type="text" for the username, one of type="password" for the password, and one of type="submit" for the “Log in” button. It also contains some hidden text fields that the user doesn’t see, which Django uses to determine what to do next.
 
-It also tells the browser that the form data should be sent to the URL specified in the <form>’s action attribute - /admin/ - and that it should be sent using the HTTP mechanism specified by the method attribute - post.
+It also tells the browser that the form data should be sent to the URL specified in the < form>’s action attribute - /admin/ - and that it should be sent using the HTTP mechanism specified by the method attribute - post.
 
-When the <input type="submit" value="Log in"> element is triggered, the data is returned to /admin/
+When the < input type="submit" value="Log in"> element is triggered, the data is returned to /admin/
 
 ## GET and POST
 GET and POST are the only HTTP methods to use when dealing with forms.
@@ -48,14 +48,14 @@ Django handles three distinct parts of the work involved in forms:
 It is possible to write code that does all of this manually, but Django can take care of it all for you
 
 ## Forms in Django
-We’ve described HTML forms briefly, but an HTML <form> is just one part of the machinery required.
+We’ve described HTML forms briefly, but an HTML < form> is just one part of the machinery required.
 
-In the context of a Web application, ‘form’ might refer to that HTML <form>, or to the Django Form that produces it, or to the structured data returned when it is submitted, or to the end-to-end working collection of these parts.
+In the context of a Web application, ‘form’ might refer to that HTML < form>, or to the Django Form that produces it, or to the structured data returned when it is submitted, or to the end-to-end working collection of these parts.
 
 ## The Django Form class
 At the heart of this system of components is Django’s Form class. In much the same way that a Django model describes the logical structure of an object, its behavior, and the way its parts are represented to us, a Form class describes a form and determines how it works and appears.
 
-In a similar way that a model class’s fields map to database fields, a form class’s fields map to HTML form <input> elements. (A ModelForm maps a model class’s fields to HTML form <input> elements via a Form; this is what the Django admin is based upon.)
+In a similar way that a model class’s fields map to database fields, a form class’s fields map to HTML form < input> elements. (A ModelForm maps a model class’s fields to HTML form < input> elements via a Form; this is what the Django admin is based upon.)
 
 A form’s fields are themselves classes; they manage form data and perform validation when a form is submitted. A DateField and a FileField handle very different kinds of data and have to do different things with it.
 
